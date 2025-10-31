@@ -61,7 +61,7 @@ example on Mac Terminal using the following command:
 
 Output from the module will be saved in CSV format to the directory assigned to
 the variable 'efg_module_dir', so this should be amended to the correct location
-before running.
+before running. 
 """
 
 print("\n### INITIATING EFG MODULE ###")
