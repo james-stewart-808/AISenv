@@ -67,16 +67,23 @@ before running.
 print("\n### INITIATING EFG MODULE ###")
 start = time.perf_counter()
 efg_module_dir = "/Users/apple/repos/AISenv/efg_module/"
+ais_dir = "/Users/apple/repos/AISenv/datasets/ais_test/ais_test_v0.3.csv"
+ves_dir = "/Users/apple/repos/AISenv/datasets/vessels_test/vessels_test_v0.3.csv"
+sfcs_dir = efg_module_dir + "sfcs_by_engine_type_tier_fuel_v0.2.csv"
+weather_fouling_cf_dir = efg_module_dir + "weather_fouling_v0.1.csv"
+aux_boiler_power_output_dir = efg_module_dir + "aux_boiler_power_output_v0.2.csv"
+fuel_emissions_dir = efg_module_dir + "fuel_emissions_v0.1.csv"
+output_dir = efg_module_dir + "runs/output.csv"
 
 print("\nEXECUTING LOAD_DATASETS.PY\n")
 from load_datasets import load_datasets
-ais_ves = load_datasets() # could include IMO number as an input field.
+ais_ves = load_datasets(ais_dir, ves_dir) # could include IMO number as an input field.
 print("\nEnding load_datasets.py.\n")
 print("\n______________________________________________________________________\n")
 
-print("\nnEXECUTING FUEL_MAPPING.PY\n") # Already accounted for in Vessel Specs? Check if necessary! What's different in this case?
-from fuel_mapping import fuel_mapping # Update description once Fuel-Engine-Emissions mapping is in-place.
-ais_ves = fuel_mapping(ais_ves)
+print("\nnEXECUTING FUEL_MAPPING.PY\n")
+from fuel_mapping import fuel_mapping
+ais_ves = fuel_mapping(ais_ves, sfcs_dir)
 print("\nEnding fuel_mapping.py.\n")
 print("\n______________________________________________________________________\n")
 
@@ -100,11 +107,11 @@ print("\n______________________________________________________________________\
 
 print("\nEXECUTING POWER_MAIN_ENGINE.PY\n")
 from power_main_engine import power_main_engine
-ais_ves = power_main_engine(ais_ves)
+ais_ves = power_main_engine(ais_ves, weather_fouling_cf_dir)
 print("\nEnding power_main_engine.py.\n")
 print("\n______________________________________________________________________\n")
 
-print("\nEXECUTING OPERATIONAL_MODE.PY\n") # Replace with np.where() ?
+print("\nEXECUTING OPERATIONAL_MODE.PY\n")
 from operational_mode import operational_mode
 ais_ves = operational_mode(ais_ves)
 print("\nEnding operational_mode.py.\n")
@@ -112,7 +119,7 @@ print("\n______________________________________________________________________\
 
 print("\nEXECUTING POWER_AUX_BOILER_ENGINE.PY\n")
 from power_aux_boiler_engines import power_aux_boiler_engines
-ais_ves = power_aux_boiler_engines(ais_ves)
+ais_ves = power_aux_boiler_engines(ais_ves, aux_boiler_power_output_dir)
 print("\nEnding power_aux_boiler_engines.py.\n")
 print("\n______________________________________________________________________\n")
 
@@ -124,7 +131,7 @@ print("\n______________________________________________________________________\
 
 print("\nEXECUTING EMISSION_FACTORS.PY\n")
 from emission_factors import emission_factors
-ais_ves = emission_factors(ais_ves)
+ais_ves = emission_factors(ais_ves, fuel_emissions_dir)
 print("\nEnding emission_factors.py.\n")
 print("\n______________________________________________________________________\n")
 
@@ -134,7 +141,7 @@ ais_ves = emissions(ais_ves)
 print("\nEnding emissions.py.\n")
 print("\n______________________________________________________________________\n")
 
-ais_ves.head().to_csv(efg_module_dir + "runs/output.csv", index=False)
+ais_ves.head().to_csv(output_dir, index=False)
 finish = time.perf_counter()
 print("\nFinished running the EFG Module ({0} minutes).\n".format(int((finish-start) / 60)))
 print("**********************************************************************")

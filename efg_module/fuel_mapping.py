@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-def fuel_mapping(ais_ves):
+def fuel_mapping(ais_ves, sfcs_dir):
     """
     This function is used to understand the type of fuel being consumed by Main,
     Auxiliary and Boiler engines, and use this information to introduce a 'Base'
@@ -124,7 +124,7 @@ def fuel_mapping(ais_ves):
 
     ## DERIVING SFCs
     # Read-in the table of SFCs by Engine Type, Tier and Fuel Type
-    sfcs = pd.read_csv("/Users/apple/repos/AISenv/EFG Module/sfcs_by_engine_type_tier_fuel/sfcs_by_engine_type_tier_fuel_v0.2.csv")
+    sfcs = pd.read_csv(sfcs_dir)
     print("\nReading in Specific Fuel Consumption values by Engine Type, Tier and Fuel Type: \n\n", sfcs.iloc[:2], "\n")
 
     # Main SFCs

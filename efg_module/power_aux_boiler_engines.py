@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-def power_aux_boiler_engines(ais_ves):
+def power_aux_boiler_engines(ais_ves, aux_boiler_power_output_dir):
     """
     A function that determines the power output of Auxiliary and Boiler engines
     based on the Operational Mode of vessel. In the 4th IMO GHG Study model,
@@ -43,7 +43,7 @@ def power_aux_boiler_engines(ais_ves):
     aux_boiler_power_output_cols = ["type_bin", "size_bin", "op_mode", "aux_power_kw", "boiler_power_kw"]
     aux_boiler_power_output_d = {"aux_power_kw":"float", "boiler_power_kw":"float"}
     aux_boiler_power_output_r = {"aux_power_kw":"w_aux_i_kw", "boiler_power_kw":"w_boi_i_kw"}
-    aux_boiler_power_output = pd.read_csv("/Users/apple/repos/AISenv/EFG Module/aux_boiler_power_output/aux_boiler_power_output_v0.2.csv", usecols=aux_boiler_power_output_cols, dtype=aux_boiler_power_output_d).rename(columns=aux_boiler_power_output_r)
+    aux_boiler_power_output = pd.read_csv(aux_boiler_power_output_dir, usecols=aux_boiler_power_output_cols, dtype=aux_boiler_power_output_d).rename(columns=aux_boiler_power_output_r)
     ais_ves = pd.merge(ais_ves, aux_boiler_power_output, left_on=["type_bin", "size_bin", "op_mode"], right_on=["type_bin", "size_bin", "op_mode"], how="left")
 
     print("\nIntroducing the Instantaneous Power Demands associated with Auxiliary and Boiler engines: \n\n", ais_ves.iloc[:2], "\n")

@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-def emission_factors(ais_ves):
+def emission_factors(ais_ves, fuel_emissions_dir):
     """
     A function that assigns Emission Factors for all emission species considered
     in the model. The Emission Factors applied can either be Fuel-based or
@@ -55,7 +55,7 @@ def emission_factors(ais_ves):
 
     """
 
-    fuel_emissions = pd.read_csv("/Users/apple/repos/AISenv/EFG Module/emission_factors/fuel_emissions_v0.1.csv")
+    fuel_emissions = pd.read_csv(fuel_emissions_dir)
 
     # Main Engine
     me_fuel_emissions_r = {"fuel_code":"fuel_code_map_me", "g_CO2_per_g_fuel":"co2_me_g_per_gfuel", "g_CH4_per_kWh":"ch4_me_g_per_kWh", "g_N2O_per_kWh":"n2o_me_g_per_kWh"}
