@@ -1,0 +1,177 @@
+engine_code,engine_desc,tier,fuel_code,fuel_type,base_sfc
+1,Slow-Speed Diesel-cycle (SSD),0,1,HFO,205
+1,Slow-Speed Diesel-cycle (SSD),0,4,MDO,190
+1,Slow-Speed Diesel-cycle (SSD),0,5,LNG,
+1,Slow-Speed Diesel-cycle (SSD),0,6,Methanol,350
+1,Slow-Speed Diesel-cycle (SSD),1,1,HFO,185
+1,Slow-Speed Diesel-cycle (SSD),1,4,MDO,175
+1,Slow-Speed Diesel-cycle (SSD),1,5,LNG,
+1,Slow-Speed Diesel-cycle (SSD),1,6,Methanol,350
+1,Slow-Speed Diesel-cycle (SSD),2,1,HFO,175
+1,Slow-Speed Diesel-cycle (SSD),2,4,MDO,165
+1,Slow-Speed Diesel-cycle (SSD),2,5,LNG,
+1,Slow-Speed Diesel-cycle (SSD),2,6,Methanol,350
+1,Slow-Speed Diesel-cycle (SSD),3,1,HFO,175
+1,Slow-Speed Diesel-cycle (SSD),3,4,MDO,165
+1,Slow-Speed Diesel-cycle (SSD),3,5,LNG,
+1,Slow-Speed Diesel-cycle (SSD),3,6,Methanol,350
+2,Medium-Speed Diesel-cycle (MSD),0,1,HFO,215
+2,Medium-Speed Diesel-cycle (MSD),0,4,MDO,200
+2,Medium-Speed Diesel-cycle (MSD),0,5,LNG,
+2,Medium-Speed Diesel-cycle (MSD),0,6,Methanol,370
+2,Medium-Speed Diesel-cycle (MSD),1,1,HFO,195
+2,Medium-Speed Diesel-cycle (MSD),1,4,MDO,185
+2,Medium-Speed Diesel-cycle (MSD),1,5,LNG,
+2,Medium-Speed Diesel-cycle (MSD),1,6,Methanol,370
+2,Medium-Speed Diesel-cycle (MSD),2,1,HFO,185
+2,Medium-Speed Diesel-cycle (MSD),2,4,MDO,175
+2,Medium-Speed Diesel-cycle (MSD),2,5,LNG,
+2,Medium-Speed Diesel-cycle (MSD),2,6,Methanol,370
+2,Medium-Speed Diesel-cycle (MSD),3,1,HFO,185
+2,Medium-Speed Diesel-cycle (MSD),3,4,MDO,175
+2,Medium-Speed Diesel-cycle (MSD),3,5,LNG,
+2,Medium-Speed Diesel-cycle (MSD),3,6,Methanol,370
+3,High-Speed Diesel-cycle (HSD),0,1,HFO,225
+3,High-Speed Diesel-cycle (HSD),0,4,MDO,210
+3,High-Speed Diesel-cycle (HSD),0,5,LNG,
+3,High-Speed Diesel-cycle (HSD),0,6,Methanol,
+3,High-Speed Diesel-cycle (HSD),1,1,HFO,205
+3,High-Speed Diesel-cycle (HSD),1,4,MDO,190
+3,High-Speed Diesel-cycle (HSD),1,5,LNG,
+3,High-Speed Diesel-cycle (HSD),1,6,Methanol,
+3,High-Speed Diesel-cycle (HSD),2,1,HFO,195
+3,High-Speed Diesel-cycle (HSD),2,4,MDO,185
+3,High-Speed Diesel-cycle (HSD),2,5,LNG,
+3,High-Speed Diesel-cycle (HSD),2,6,Methanol,
+3,High-Speed Diesel-cycle (HSD),3,1,HFO,195
+3,High-Speed Diesel-cycle (HSD),3,4,MDO,185
+3,High-Speed Diesel-cycle (HSD),3,5,LNG,
+3,High-Speed Diesel-cycle (HSD),3,6,Methanol,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,0,1,HFO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,0,4,MDO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,0,5,LNG,148
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,0,6,Methanol,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,1,1,HFO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,1,4,MDO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,1,5,LNG,148
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,1,6,Methanol,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,2,1,HFO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,2,4,MDO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,2,5,LNG,148
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,2,6,Methanol,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,3,1,HFO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,3,4,MDO,
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,3,5,LNG,148
+4,Slow-Speed LNG Otto-cycle Dual-Fuel,3,6,Methanol,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,0,1,HFO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,0,4,MDO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,0,5,LNG,173
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,0,6,Methanol,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,1,1,HFO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,1,4,MDO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,1,5,LNG,173
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,1,6,Methanol,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,2,1,HFO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,2,4,MDO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,2,5,LNG,156
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,2,6,Methanol,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,3,1,HFO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,3,4,MDO,
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,3,5,LNG,156
+5,Medium-Speed LNG Otto-cycle Dual-Fuel,3,6,Methanol,
+6,LNG Diesel-cycle Dual-Fuel,0,1,HFO,
+6,LNG Diesel-cycle Dual-Fuel,0,4,MDO,
+6,LNG Diesel-cycle Dual-Fuel,0,5,LNG,135
+6,LNG Diesel-cycle Dual-Fuel,0,6,Methanol,
+6,LNG Diesel-cycle Dual-Fuel,1,1,HFO,
+6,LNG Diesel-cycle Dual-Fuel,1,4,MDO,
+6,LNG Diesel-cycle Dual-Fuel,1,5,LNG,135
+6,LNG Diesel-cycle Dual-Fuel,1,6,Methanol,
+6,LNG Diesel-cycle Dual-Fuel,2,1,HFO,
+6,LNG Diesel-cycle Dual-Fuel,2,4,MDO,
+6,LNG Diesel-cycle Dual-Fuel,2,5,LNG,135
+6,LNG Diesel-cycle Dual-Fuel,2,6,Methanol,
+6,LNG Diesel-cycle Dual-Fuel,3,1,HFO,
+6,LNG Diesel-cycle Dual-Fuel,3,4,MDO,
+6,LNG Diesel-cycle Dual-Fuel,3,5,LNG,135
+6,LNG Diesel-cycle Dual-Fuel,3,6,Methanol,
+7,LBSI,0,1,HFO,
+7,LBSI,0,4,MDO,
+7,LBSI,0,5,LNG,156
+7,LBSI,0,6,Methanol,
+7,LBSI,1,1,HFO,
+7,LBSI,1,4,MDO,
+7,LBSI,1,5,LNG,156
+7,LBSI,1,6,Methanol,
+7,LBSI,2,1,HFO,
+7,LBSI,2,4,MDO,
+7,LBSI,2,5,LNG,156
+7,LBSI,2,6,Methanol,
+7,LBSI,3,1,HFO,
+7,LBSI,3,4,MDO,
+7,LBSI,3,5,LNG,156
+7,LBSI,3,6,Methanol,
+8,Methanol,0,1,HFO,
+8,Methanol,0,4,MDO,
+8,Methanol,0,5,LNG,
+8,Methanol,0,6,Methanol,360
+8,Methanol,1,1,HFO,
+8,Methanol,1,4,MDO,
+8,Methanol,1,5,LNG,
+8,Methanol,1,6,Methanol,360
+8,Methanol,2,1,HFO,
+8,Methanol,2,4,MDO,
+8,Methanol,2,5,LNG,
+8,Methanol,2,6,Methanol,360
+8,Methanol,3,1,HFO,
+8,Methanol,3,4,MDO,
+8,Methanol,3,5,LNG,
+8,Methanol,3,6,Methanol,360
+9,Gas Turbine,0,1,HFO,305
+9,Gas Turbine,0,4,MDO,300
+9,Gas Turbine,0,5,LNG,203
+9,Gas Turbine,0,6,Methanol,
+9,Gas Turbine,1,1,HFO,305
+9,Gas Turbine,1,4,MDO,300
+9,Gas Turbine,1,5,LNG,203
+9,Gas Turbine,1,6,Methanol,
+9,Gas Turbine,2,1,HFO,305
+9,Gas Turbine,2,4,MDO,300
+9,Gas Turbine,2,5,LNG,203
+9,Gas Turbine,2,6,Methanol,
+9,Gas Turbine,3,1,HFO,305
+9,Gas Turbine,3,4,MDO,300
+9,Gas Turbine,3,5,LNG,203
+9,Gas Turbine,3,6,Methanol,
+11,Steam Turbine and Boilers,0,1,HFO,340
+11,Steam Turbine and Boilers,0,4,MDO,320
+11,Steam Turbine and Boilers,0,5,LNG,285
+11,Steam Turbine and Boilers,0,6,Methanol,
+11,Steam Turbine and Boilers,1,1,HFO,340
+11,Steam Turbine and Boilers,1,4,MDO,320
+11,Steam Turbine and Boilers,1,5,LNG,285
+11,Steam Turbine and Boilers,1,6,Methanol,
+11,Steam Turbine and Boilers,2,1,HFO,340
+11,Steam Turbine and Boilers,2,4,MDO,320
+11,Steam Turbine and Boilers,2,5,LNG,285
+11,Steam Turbine and Boilers,2,6,Methanol,
+11,Steam Turbine and Boilers,3,1,HFO,340
+11,Steam Turbine and Boilers,3,4,MDO,320
+11,Steam Turbine and Boilers,3,5,LNG,285
+11,Steam Turbine and Boilers,3,6,Methanol,
+15,Auxiliary,0,1,HFO,225
+15,Auxiliary,0,4,MDO,210
+15,Auxiliary,0,5,LNG,173
+15,Auxiliary,0,6,Methanol,
+15,Auxiliary,1,1,HFO,205
+15,Auxiliary,1,4,MDO,190
+15,Auxiliary,1,5,LNG,173
+15,Auxiliary,1,6,Methanol,
+15,Auxiliary,2,1,HFO,195
+15,Auxiliary,2,4,MDO,185
+15,Auxiliary,2,5,LNG,156
+15,Auxiliary,2,6,Methanol,
+15,Auxiliary,3,1,HFO,195
+15,Auxiliary,3,4,MDO,185
+15,Auxiliary,3,5,LNG,156
+15,Auxiliary,3,6,Methanol,

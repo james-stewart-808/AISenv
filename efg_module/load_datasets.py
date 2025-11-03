@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-def load_datasets():
+def load_datasets(ais_dir, ves_dir):
     """
     A function that loads input datasets for the EFG module. This version of the
     function loads the AIS and Vessel Specification datasets locally, however
@@ -33,7 +33,7 @@ def load_datasets():
     """
 
     ais_cols = {"imo":int, "lon":"float", "lat":"float", "distance_to_shore":"float", "reported_draught":"float", "sog":"float", "cog":"float"}
-    ais = pd.read_csv("/Users/apple/repos/AISenv/datasets/ais_test/ais_test_v0.3.csv", dtype=ais_cols)
+    ais = pd.read_csv(ais_dir, dtype=ais_cols)
     ais["ts"] = ais["ts"].astype({"ts":"datetime64[ns]"})
     print("\nAIS dataframe: \n\n", ais.iloc[:2], "\n")
 
@@ -42,7 +42,7 @@ def load_datasets():
         "draught":"float", "service_speed":"float", "main_engine_rpm":"float", "eng_total_kw":"float", "engine_code":"int", "tier":"int",
         "me_sfoc":"float", "aux_sfoc":"float", "boiler_sfoc":"float", "aux_at_berth":"float", "aux_anchor":"float", "aux_manoeuvring":"float", "aux_slow":"float", "aux_sea":"float"
     }
-    ves = pd.read_csv("/Users/apple/repos/AISenv/datasets/vessels_test/vessels_test_v0.3.csv", dtype=ves_cols)
+    ves = pd.read_csv(ves_dir, dtype=ves_cols)
     print("\nVessel specifications: \n\n", ves.iloc[:2], "\n")
 
     ais_ves = pd.merge(ais, ves, left_on="imo", right_on="imo", how="left")

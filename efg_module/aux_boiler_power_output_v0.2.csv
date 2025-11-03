@@ -1,0 +1,351 @@
+type_bin,ship_type_standardized,size_bin,size_range_standardized,op_mode,aux_power_kw,boiler_power_kw
+1,Bulk carrier,1,"0-9,999",Anchored,70.0,180.0
+1,Bulk carrier,1,"0-9,999",At berth,70.0,110.0
+1,Bulk carrier,1,"0-9,999",Manoeuvering,60.0,500.0
+1,Bulk carrier,1,"0-9,999",Slow transit,0.0,190.0
+1,Bulk carrier,1,"0-9,999",Cruising,0.0,190.0
+1,Bulk carrier,2,"10,000-34,999",Anchored,70.0,180.0
+1,Bulk carrier,2,"10,000-34,999",At berth,70.0,110.0
+1,Bulk carrier,2,"10,000-34,999",Manoeuvering,60.0,500.0
+1,Bulk carrier,2,"10,000-34,999",Slow transit,0.0,190.0
+1,Bulk carrier,2,"10,000-34,999",Cruising,0.0,190.0
+1,Bulk carrier,3,"35,000-59,999",Anchored,130.0,250.0
+1,Bulk carrier,3,"35,000-59,999",At berth,130.0,150.0
+1,Bulk carrier,3,"35,000-59,999",Manoeuvering,120.0,680.0
+1,Bulk carrier,3,"35,000-59,999",Slow transit,0.0,260.0
+1,Bulk carrier,3,"35,000-59,999",Cruising,0.0,260.0
+1,Bulk carrier,4,"60,000-99,999",Anchored,260.0,400.0
+1,Bulk carrier,4,"60,000-99,999",At berth,260.0,240.0
+1,Bulk carrier,4,"60,000-99,999",Manoeuvering,240.0,1100.0
+1,Bulk carrier,4,"60,000-99,999",Slow transit,0.0,410.0
+1,Bulk carrier,4,"60,000-99,999",Cruising,0.0,410.0
+1,Bulk carrier,5,"100,000-199,999",Anchored,260.0,400.0
+1,Bulk carrier,5,"100,000-199,999",At berth,260.0,240.0
+1,Bulk carrier,5,"100,000-199,999",Manoeuvering,240.0,1100.0
+1,Bulk carrier,5,"100,000-199,999",Slow transit,0.0,410.0
+1,Bulk carrier,5,"100,000-199,999",Cruising,0.0,410.0
+1,Bulk carrier,6,"200,000-+",Anchored,260.0,400.0
+1,Bulk carrier,6,"200,000-+",At berth,260.0,240.0
+1,Bulk carrier,6,"200,000-+",Manoeuvering,240.0,1100.0
+1,Bulk carrier,6,"200,000-+",Slow transit,0.0,410.0
+1,Bulk carrier,6,"200,000-+",Cruising,0.0,410.0
+3,Chemical tanker,1,"0-4,999",Anchored,160.0,170.0
+3,Chemical tanker,1,"0-4,999",At berth,670.0,110.0
+3,Chemical tanker,1,"0-4,999",Manoeuvering,130.0,190.0
+3,Chemical tanker,1,"0-4,999",Slow transit,0.0,200.0
+3,Chemical tanker,1,"0-4,999",Cruising,0.0,200.0
+3,Chemical tanker,2,"5,000-9,999",Anchored,160.0,490.0
+3,Chemical tanker,2,"5,000-9,999",At berth,670.0,330.0
+3,Chemical tanker,2,"5,000-9,999",Manoeuvering,130.0,560.0
+3,Chemical tanker,2,"5,000-9,999",Slow transit,0.0,580.0
+3,Chemical tanker,2,"5,000-9,999",Cruising,0.0,580.0
+3,Chemical tanker,3,"10,000-19,999",Anchored,240.0,490.0
+3,Chemical tanker,3,"10,000-19,999",At berth,1000.0,330.0
+3,Chemical tanker,3,"10,000-19,999",Manoeuvering,200.0,560.0
+3,Chemical tanker,3,"10,000-19,999",Slow transit,0.0,580.0
+3,Chemical tanker,3,"10,000-19,999",Cruising,0.0,580.0
+3,Chemical tanker,4,"20,000-39999",Anchored,320.0,550.0
+3,Chemical tanker,4,"20,000-39999",At berth,1350.0,790.0
+3,Chemical tanker,4,"20,000-39999",Manoeuvering,270.0,900.0
+3,Chemical tanker,4,"20,000-39999",Slow transit,0.0,660.0
+3,Chemical tanker,4,"20,000-39999",Cruising,0.0,660.0
+3,Chemical tanker,5,"40,000-+",Anchored,320.0,550.0
+3,Chemical tanker,5,"40,000-+",At berth,1350.0,790.0
+3,Chemical tanker,5,"40,000-+",Manoeuvering,270.0,900.0
+3,Chemical tanker,5,"40,000-+",Slow transit,0.0,660.0
+3,Chemical tanker,5,"40,000-+",Cruising,0.0,660.0
+4,Container,1,0-999,Anchored,250.0,450.0
+4,Container,1,0-999,At berth,250.0,370.0
+4,Container,1,0-999,Manoeuvering,240.0,790.0
+4,Container,1,0-999,Slow transit,0.0,410.0
+4,Container,1,0-999,Cruising,0.0,410.0
+4,Container,2,"1,000-1,999",Anchored,340.0,910.0
+4,Container,2,"1,000-1,999",At berth,340.0,820.0
+4,Container,2,"1,000-1,999",Manoeuvering,310.0,1750.0
+4,Container,2,"1,000-1,999",Slow transit,0.0,900.0
+4,Container,2,"1,000-1,999",Cruising,0.0,900.0
+4,Container,3,"2,000-2,999",Anchored,450.0,910.0
+4,Container,3,"2,000-2,999",At berth,460.0,610.0
+4,Container,3,"2,000-2,999",Manoeuvering,430.0,1900.0
+4,Container,3,"2,000-2,999",Slow transit,0.0,920.0
+4,Container,3,"2,000-2,999",Cruising,0.0,920.0
+4,Container,4,"3,000-4,999",Anchored,480.0,1350.0
+4,Container,4,"3,000-4,999",At berth,480.0,1100.0
+4,Container,4,"3,000-4,999",Manoeuvering,430.0,2500.0
+4,Container,4,"3,000-4,999",Slow transit,0.0,1400.0
+4,Container,4,"3,000-4,999",Cruising,0.0,1400.0
+4,Container,5,"5,000-7,999",Anchored,580.0,1400.0
+4,Container,5,"5,000-7,999",At berth,590.0,1100.0
+4,Container,5,"5,000-7,999",Manoeuvering,550.0,2800.0
+4,Container,5,"5,000-7,999",Slow transit,0.0,1450.0
+4,Container,5,"5,000-7,999",Cruising,0.0,1450.0
+4,Container,6,"8,000-11,999",Anchored,620.0,1600.0
+4,Container,6,"8,000-11,999",At berth,620.0,1150.0
+4,Container,6,"8,000-11,999",Manoeuvering,540.0,2900.0
+4,Container,6,"8,000-11,999",Slow transit,0.0,1800.0
+4,Container,6,"8,000-11,999",Cruising,0.0,1800.0
+4,Container,7,"12,000-14,499",Anchored,630.0,1800.0
+4,Container,7,"12,000-14,499",At berth,630.0,1300.0
+4,Container,7,"12,000-14,499",Manoeuvering,630.0,3250.0
+4,Container,7,"12,000-14,499",Slow transit,0.0,2050.0
+4,Container,7,"12,000-14,499",Cruising,0.0,2050.0
+4,Container,8,"14,500-19,999",Anchored,630.0,1950.0
+4,Container,8,"14,500-19,999",At berth,630.0,1400.0
+4,Container,8,"14,500-19,999",Manoeuvering,630.0,3600.0
+4,Container,8,"14,500-19,999",Slow transit,0.0,2300.0
+4,Container,8,"14,500-19,999",Cruising,0.0,2300.0
+4,Container,9,"20,000-+",Anchored,700.0,1950.0
+4,Container,9,"20,000-+",At berth,700.0,1400.0
+4,Container,9,"20,000-+",Manoeuvering,700.0,3600.0
+4,Container,9,"20,000-+",Slow transit,0.0,2300.0
+4,Container,9,"20,000-+",Cruising,0.0,2300.0
+5,General cargo,1,"0-4,999",Anchored,0.0,50.0
+5,General cargo,1,"0-4,999",At berth,0.0,90.0
+5,General cargo,1,"0-4,999",Manoeuvering,0.0,180.0
+5,General cargo,1,"0-4,999",Slow transit,0.0,60.0
+5,General cargo,1,"0-4,999",Cruising,0.0,60.0
+5,General cargo,2,"5,000-9,999",Anchored,110.0,130.0
+5,General cargo,2,"5,000-9,999",At berth,110.0,240.0
+5,General cargo,2,"5,000-9,999",Manoeuvering,100.0,490.0
+5,General cargo,2,"5,000-9,999",Slow transit,0.0,180.0
+5,General cargo,2,"5,000-9,999",Cruising,0.0,180.0
+5,General cargo,3,"10,000-19,999",Anchored,150.0,370.0
+5,General cargo,3,"10,000-19,999",At berth,150.0,720.0
+5,General cargo,3,"10,000-19,999",Manoeuvering,130.0,1450.0
+5,General cargo,3,"10,000-19,999",Slow transit,0.0,520.0
+5,General cargo,3,"10,000-19,999",Cruising,0.0,520.0
+5,General cargo,4,"20,000-+",Anchored,150.0,370.0
+5,General cargo,4,"20,000-+",At berth,150.0,720.0
+5,General cargo,4,"20,000-+",Manoeuvering,130.0,1450.0
+5,General cargo,4,"20,000-+",Slow transit,0.0,520.0
+5,General cargo,4,"20,000-+",Cruising,0.0,520.0
+6,Liquefied gas tanker,1,"0-49,999",Anchored,200.0,240.0
+6,Liquefied gas tanker,1,"0-49,999",At berth,1000.0,240.0
+6,Liquefied gas tanker,1,"0-49,999",Manoeuvering,200.0,360.0
+6,Liquefied gas tanker,1,"0-49,999",Slow transit,100.0,240.0
+6,Liquefied gas tanker,1,"0-49,999",Cruising,100.0,240.0
+6,Liquefied gas tanker,2,"50,000-99,999",Anchored,200.0,1700.0
+6,Liquefied gas tanker,2,"50,000-99,999",At berth,1000.0,1700.0
+6,Liquefied gas tanker,2,"50,000-99,999",Manoeuvering,200.0,2600.0
+6,Liquefied gas tanker,2,"50,000-99,999",Slow transit,100.0,1700.0
+6,Liquefied gas tanker,2,"50,000-99,999",Cruising,100.0,1700.0
+6,Liquefied gas tanker,3,"100,000-199,999",Anchored,300.0,2000.0
+6,Liquefied gas tanker,3,"100,000-199,999",At berth,1500.0,2500.0
+6,Liquefied gas tanker,3,"100,000-199,999",Manoeuvering,300.0,2300.0
+6,Liquefied gas tanker,3,"100,000-199,999",Slow transit,150.0,2650.0
+6,Liquefied gas tanker,3,"100,000-199,999",Cruising,150.0,2650.0
+6,Liquefied gas tanker,4,"200,000-+",Anchored,600.0,7200.0
+6,Liquefied gas tanker,4,"200,000-+",At berth,3000.0,6750.0
+6,Liquefied gas tanker,4,"200,000-+",Manoeuvering,600.0,7200.0
+6,Liquefied gas tanker,4,"200,000-+",Slow transit,300.0,6750.0
+6,Liquefied gas tanker,4,"200,000-+",Cruising,300.0,6750.0
+7,Oil tanker,1,"0-4,999",Anchored,100.0,250.0
+7,Oil tanker,1,"0-4,999",At berth,500.0,250.0
+7,Oil tanker,1,"0-4,999",Manoeuvering,100.0,375.0
+7,Oil tanker,1,"0-4,999",Slow transit,0.0,250.0
+7,Oil tanker,1,"0-4,999",Cruising,0.0,250.0
+7,Oil tanker,2,"5,000-9,999",Anchored,150.0,375.0
+7,Oil tanker,2,"5,000-9,999",At berth,750.0,375.0
+7,Oil tanker,2,"5,000-9,999",Manoeuvering,150.0,560.0
+7,Oil tanker,2,"5,000-9,999",Slow transit,0.0,375.0
+7,Oil tanker,2,"5,000-9,999",Cruising,0.0,375.0
+7,Oil tanker,3,"10,000-19,999",Anchored,250.0,500.0
+7,Oil tanker,3,"10,000-19,999",At berth,1250.0,690.0
+7,Oil tanker,3,"10,000-19,999",Manoeuvering,250.0,580.0
+7,Oil tanker,3,"10,000-19,999",Slow transit,0.0,490.0
+7,Oil tanker,3,"10,000-19,999",Cruising,0.0,490.0
+7,Oil tanker,4,"20,000-59,999",Anchored,270.0,520.0
+7,Oil tanker,4,"20,000-59,999",At berth,2700.0,720.0
+7,Oil tanker,4,"20,000-59,999",Manoeuvering,270.0,600.0
+7,Oil tanker,4,"20,000-59,999",Slow transit,270.0,510.0
+7,Oil tanker,4,"20,000-59,999",Cruising,270.0,510.0
+7,Oil tanker,5,"60,000-79,999",Anchored,360.0,490.0
+7,Oil tanker,5,"60,000-79,999",At berth,3250.0,620.0
+7,Oil tanker,5,"60,000-79,999",Manoeuvering,360.0,770.0
+7,Oil tanker,5,"60,000-79,999",Slow transit,280.0,560.0
+7,Oil tanker,5,"60,000-79,999",Cruising,280.0,560.0
+7,Oil tanker,6,"80,000-119,999",Anchored,400.0,640.0
+7,Oil tanker,6,"80,000-119,999",At berth,4000.0,800.0
+7,Oil tanker,6,"80,000-119,999",Manoeuvering,400.0,910.0
+7,Oil tanker,6,"80,000-119,999",Slow transit,280.0,690.0
+7,Oil tanker,6,"80,000-119,999",Cruising,280.0,690.0
+7,Oil tanker,7,"120,000-199,999",Anchored,500.0,770.0
+7,Oil tanker,7,"120,000-199,999",At berth,6500.0,2500.0
+7,Oil tanker,7,"120,000-199,999",Manoeuvering,500.0,1300.0
+7,Oil tanker,7,"120,000-199,999",Slow transit,300.0,860.0
+7,Oil tanker,7,"120,000-199,999",Cruising,300.0,860.0
+7,Oil tanker,8,"200,000-+",Anchored,600.0,770.0
+7,Oil tanker,8,"200,000-+",At berth,7000.0,2500.0
+7,Oil tanker,8,"200,000-+",Manoeuvering,600.0,1300.0
+7,Oil tanker,8,"200,000-+",Slow transit,300.0,860.0
+7,Oil tanker,8,"200,000-+",Cruising,300.0,860.0
+8,Other liquids tanker,1,0-999,Anchored,200.0,500.0
+8,Other liquids tanker,1,0-999,At berth,1000.0,500.0
+8,Other liquids tanker,1,0-999,Manoeuvering,200.0,750.0
+8,Other liquids tanker,1,0-999,Slow transit,100.0,500.0
+8,Other liquids tanker,1,0-999,Cruising,100.0,500.0
+8,Other liquids tanker,2,1000-+,Anchored,200.0,500.0
+8,Other liquids tanker,2,1000-+,At berth,1000.0,500.0
+8,Other liquids tanker,2,1000-+,Manoeuvering,200.0,750.0
+8,Other liquids tanker,2,1000-+,Slow transit,100.0,500.0
+8,Other liquids tanker,2,1000-+,Cruising,100.0,500.0
+9,Ferry-pax only,1,0-299,Anchored,0.0,190.0
+9,Ferry-pax only,1,0-299,At berth,0.0,190.0
+9,Ferry-pax only,1,0-299,Manoeuvering,0.0,190.0
+9,Ferry-pax only,1,0-299,Slow transit,0.0,190.0
+9,Ferry-pax only,1,0-299,Cruising,0.0,190.0
+9,Ferry-pax only,2,300-999,Anchored,0.0,190.0
+9,Ferry-pax only,2,300-999,At berth,0.0,190.0
+9,Ferry-pax only,2,300-999,Manoeuvering,0.0,190.0
+9,Ferry-pax only,2,300-999,Slow transit,0.0,190.0
+9,Ferry-pax only,2,300-999,Cruising,0.0,190.0
+9,Ferry-pax only,3,1000-1999,Anchored,0.0,190.0
+9,Ferry-pax only,3,1000-1999,At berth,0.0,190.0
+9,Ferry-pax only,3,1000-1999,Manoeuvering,0.0,190.0
+9,Ferry-pax only,3,1000-1999,Slow transit,0.0,190.0
+9,Ferry-pax only,3,1000-1999,Cruising,0.0,190.0
+9,Ferry-pax only,4,2000-+,Anchored,0.0,520.0
+9,Ferry-pax only,4,2000-+,At berth,0.0,520.0
+9,Ferry-pax only,4,2000-+,Manoeuvering,0.0,520.0
+9,Ferry-pax only,4,2000-+,Slow transit,0.0,520.0
+9,Ferry-pax only,4,2000-+,Cruising,0.0,520.0
+10,Cruise,1,"0-1,999",Anchored,950.0,450.0
+10,Cruise,1,"0-1,999",At berth,1100.0,450.0
+10,Cruise,1,"0-1,999",Manoeuvering,980.0,580.0
+10,Cruise,1,"0-1,999",Slow transit,0.0,450.0
+10,Cruise,1,"0-1,999",Cruising,0.0,450.0
+10,Cruise,2,"2,000-9,999",Anchored,950.0,450.0
+10,Cruise,2,"2,000-9,999",At berth,1100.0,450.0
+10,Cruise,2,"2,000-9,999",Manoeuvering,980.0,580.0
+10,Cruise,2,"2,000-9,999",Slow transit,0.0,450.0
+10,Cruise,2,"2,000-9,999",Cruising,0.0,450.0
+10,Cruise,3,"10,000-59,999",Anchored,950.0,3500.0
+10,Cruise,3,"10,000-59,999",At berth,1100.0,3500.0
+10,Cruise,3,"10,000-59,999",Manoeuvering,980.0,5500.0
+10,Cruise,3,"10,000-59,999",Slow transit,0.0,3500.0
+10,Cruise,3,"10,000-59,999",Cruising,0.0,3500.0
+10,Cruise,4,"60,000-99,999",Anchored,950.0,11500.0
+10,Cruise,4,"60,000-99,999",At berth,1100.0,11500.0
+10,Cruise,4,"60,000-99,999",Manoeuvering,980.0,14900.0
+10,Cruise,4,"60,000-99,999",Slow transit,0.0,11500.0
+10,Cruise,4,"60,000-99,999",Cruising,0.0,11500.0
+10,Cruise,5,100000-149999,Anchored,950.0,11500.0
+10,Cruise,5,100000-149999,At berth,1100.0,11500.0
+10,Cruise,5,100000-149999,Manoeuvering,980.0,14900.0
+10,Cruise,5,100000-149999,Slow transit,0.0,11500.0
+10,Cruise,5,100000-149999,Cruising,0.0,11500.0
+10,Cruise,6,150000-+,Anchored,950.0,11500.0
+10,Cruise,6,150000-+,At berth,1100.0,11500.0
+10,Cruise,6,150000-+,Manoeuvering,980.0,14900.0
+10,Cruise,6,150000-+,Slow transit,0.0,11500.0
+10,Cruise,6,150000-+,Cruising,0.0,11500.0
+11,Ferry-RoPax,1,0-1999,Anchored,250.0,105.0
+11,Ferry-RoPax,1,0-1999,At berth,260.0,105.0
+11,Ferry-RoPax,1,0-1999,Manoeuvering,170.0,105.0
+11,Ferry-RoPax,1,0-1999,Slow transit,0.0,105.0
+11,Ferry-RoPax,1,0-1999,Cruising,0.0,105.0
+11,Ferry-RoPax,2,2000-4999,Anchored,250.0,330.0
+11,Ferry-RoPax,2,2000-4999,At berth,260.0,330.0
+11,Ferry-RoPax,2,2000-4999,Manoeuvering,170.0,330.0
+11,Ferry-RoPax,2,2000-4999,Slow transit,0.0,330.0
+11,Ferry-RoPax,2,2000-4999,Cruising,0.0,330.0
+11,Ferry-RoPax,3,5000-9999,Anchored,250.0,670.0
+11,Ferry-RoPax,3,5000-9999,At berth,260.0,670.0
+11,Ferry-RoPax,3,5000-9999,Manoeuvering,170.0,670.0
+11,Ferry-RoPax,3,5000-9999,Slow transit,0.0,670.0
+11,Ferry-RoPax,3,5000-9999,Cruising,0.0,670.0
+11,Ferry-RoPax,4,10000-19999,Anchored,380.0,1100.0
+11,Ferry-RoPax,4,10000-19999,At berth,390.0,1100.0
+11,Ferry-RoPax,4,10000-19999,Manoeuvering,260.0,1100.0
+11,Ferry-RoPax,4,10000-19999,Slow transit,0.0,1100.0
+11,Ferry-RoPax,4,10000-19999,Cruising,0.0,1100.0
+11,Ferry-RoPax,5,20000-+,Anchored,380.0,1950.0
+11,Ferry-RoPax,5,20000-+,At berth,390.0,1950.0
+11,Ferry-RoPax,5,20000-+,Manoeuvering,260.0,1950.0
+11,Ferry-RoPax,5,20000-+,Slow transit,0.0,1950.0
+11,Ferry-RoPax,5,20000-+,Cruising,0.0,1950.0
+12,Refrigerated bulk,1,0-1999,Anchored,270.0,570.0
+12,Refrigerated bulk,1,0-1999,At berth,270.0,520.0
+12,Refrigerated bulk,1,0-1999,Manoeuvering,270.0,560.0
+12,Refrigerated bulk,1,0-1999,Slow transit,0.0,570.0
+12,Refrigerated bulk,1,0-1999,Cruising,0.0,570.0
+12,Refrigerated bulk,2,2000-5999,Anchored,270.0,1200.0
+12,Refrigerated bulk,2,2000-5999,At berth,270.0,1100.0
+12,Refrigerated bulk,2,2000-5999,Manoeuvering,270.0,1150.0
+12,Refrigerated bulk,2,2000-5999,Slow transit,0.0,1200.0
+12,Refrigerated bulk,2,2000-5999,Cruising,0.0,1200.0
+12,Refrigerated bulk,3,6000-9999,Anchored,270.0,1650.0
+12,Refrigerated bulk,3,6000-9999,At berth,270.0,1500.0
+12,Refrigerated bulk,3,6000-9999,Manoeuvering,270.0,1600.0
+12,Refrigerated bulk,3,6000-9999,Slow transit,0.0,1650.0
+12,Refrigerated bulk,3,6000-9999,Cruising,0.0,1650.0
+12,Refrigerated bulk,4,10000-+,Anchored,270.0,3100.0
+12,Refrigerated bulk,4,10000-+,At berth,270.0,2850.0
+12,Refrigerated bulk,4,10000-+,Manoeuvering,270.0,3000.0
+12,Refrigerated bulk,4,10000-+,Slow transit,0.0,3100.0
+12,Refrigerated bulk,4,10000-+,Cruising,0.0,3100.0
+13,Ro-Ro,1,0-4999,Anchored,250.0,430.0
+13,Ro-Ro,1,0-4999,At berth,260.0,750.0
+13,Ro-Ro,1,0-4999,Manoeuvering,170.0,1300.0
+13,Ro-Ro,1,0-4999,Slow transit,0.0,430.0
+13,Ro-Ro,1,0-4999,Cruising,0.0,430.0
+13,Ro-Ro,2,5000-9999,Anchored,250.0,680.0
+13,Ro-Ro,2,5000-9999,At berth,260.0,1100.0
+13,Ro-Ro,2,5000-9999,Manoeuvering,170.0,2100.0
+13,Ro-Ro,2,5000-9999,Slow transit,0.0,680.0
+13,Ro-Ro,2,5000-9999,Cruising,0.0,680.0
+13,Ro-Ro,3,10000-14999,Anchored,380.0,950.0
+13,Ro-Ro,3,10000-14999,At berth,390.0,1200.0
+13,Ro-Ro,3,10000-14999,Manoeuvering,260.0,2700.0
+13,Ro-Ro,3,10000-14999,Slow transit,0.0,950.0
+13,Ro-Ro,3,10000-14999,Cruising,0.0,950.0
+13,Ro-Ro,4,"15,000-+",Anchored,380.0,950.0
+13,Ro-Ro,4,"15,000-+",At berth,390.0,1200.0
+13,Ro-Ro,4,"15,000-+",Manoeuvering,260.0,2700.0
+13,Ro-Ro,4,"15,000-+",Slow transit,0.0,950.0
+13,Ro-Ro,4,"15,000-+",Cruising,0.0,950.0
+14,Vehicle,1,"0-9,999",Anchored,300.0,500.0
+14,Vehicle,1,"0-9,999",At berth,310.0,800.0
+14,Vehicle,1,"0-9,999",Manoeuvering,250.0,1100.0
+14,Vehicle,1,"0-9,999",Slow transit,0.0,500.0
+14,Vehicle,1,"0-9,999",Cruising,0.0,500.0
+14,Vehicle,2,"10,000-19,999",Anchored,300.0,550.0
+14,Vehicle,2,"10,000-19,999",At berth,310.0,850.0
+14,Vehicle,2,"10,000-19,999",Manoeuvering,250.0,1400.0
+14,Vehicle,2,"10,000-19,999",Slow transit,0.0,510.0
+14,Vehicle,2,"10,000-19,999",Cruising,0.0,510.0
+14,Vehicle,3,"20,000-+",Anchored,300.0,550.0
+14,Vehicle,3,"20,000-+",At berth,310.0,850.0
+14,Vehicle,3,"20,000-+",Manoeuvering,250.0,1400.0
+14,Vehicle,3,"20,000-+",Slow transit,0.0,510.0
+14,Vehicle,3,"20,000-+",Cruising,0.0,510.0
+15,Yacht,1,0-+,Anchored,0.0,130.0
+15,Yacht,1,0-+,At berth,0.0,130.0
+15,Yacht,1,0-+,Manoeuvering,0.0,130.0
+15,Yacht,1,0-+,Slow transit,0.0,130.0
+15,Yacht,1,0-+,Cruising,0.0,130.0
+16,Service - tug,1,0-+,Anchored,0.0,80.0
+16,Service - tug,1,0-+,At berth,0.0,100.0
+16,Service - tug,1,0-+,Manoeuvering,0.0,210.0
+16,Service - tug,1,0-+,Slow transit,0.0,80.0
+16,Service - tug,1,0-+,Cruising,0.0,80.0
+17,Miscellaneous - fishing,1,0-+,Anchored,0.0,200.0
+17,Miscellaneous - fishing,1,0-+,At berth,0.0,200.0
+17,Miscellaneous - fishing,1,0-+,Manoeuvering,0.0,200.0
+17,Miscellaneous - fishing,1,0-+,Slow transit,0.0,200.0
+17,Miscellaneous - fishing,1,0-+,Cruising,0.0,200.0
+18,Offshore,1,0-+,Anchored,0.0,200.0
+18,Offshore,1,0-+,At berth,0.0,200.0
+18,Offshore,1,0-+,Manoeuvering,0.0,200.0
+18,Offshore,1,0-+,Slow transit,0.0,200.0
+18,Offshore,1,0-+,Cruising,0.0,200.0
+19,Service - other,1,0-+,Anchored,0.0,220.0
+19,Service - other,1,0-+,At berth,0.0,220.0
+19,Service - other,1,0-+,Manoeuvering,0.0,220.0
+19,Service - other,1,0-+,Slow transit,0.0,220.0
+19,Service - other,1,0-+,Cruising,0.0,220.0
+20,Miscellaneous - other,1,0-+,Anchored,110.0,150.0
+20,Miscellaneous - other,1,0-+,At berth,110.0,150.0
+20,Miscellaneous - other,1,0-+,Manoeuvering,90.0,430.0
+20,Miscellaneous - other,1,0-+,Slow transit,0.0,410.0
+20,Miscellaneous - other,1,0-+,Cruising,0.0,410.0

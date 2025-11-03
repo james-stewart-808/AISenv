@@ -1,0 +1,5 @@
+fuel_code,fuel,g_CO2_per_g_fuel,g_CH4_per_kWh,g_N2O_per_kWh
+1,HFO,3.114,0.01,0.03
+4,MDO,3.206,0.01,0.03
+5,LNG,2.75,2.5,0.02
+6,Methanol,1.375,0.01,0.003

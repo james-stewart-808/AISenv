@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-def power_main_engine(ais_ves):
+def power_main_engine(ais_ves, weather_fouling_cf_dir):
     """
     A script to evaluate the instantaneous power output of the main engine. The
     script applies a version of the Admiralty formula to estimate the energy
@@ -74,7 +74,7 @@ def power_main_engine(ais_ves):
     # Introducing correction factors for Main Engine Power Demand owing to Weather and Fouling
     weather_fouling_cf_cols = ["type_bin", "size_bin", "c_w", "c_f"]
     weather_fouling_cf_d = {"c_w":"float", "c_f":"float"}
-    weather_fouling_cf = pd.read_csv("/Users/apple/repos/AISenv/EFG Module/weather_fouling/weather_fouling_v0.1.csv", usecols=weather_fouling_cf_cols, dtype=weather_fouling_cf_d)
+    weather_fouling_cf = pd.read_csv(weather_fouling_cf_dir, usecols=weather_fouling_cf_cols, dtype=weather_fouling_cf_d)
     ais_ves = pd.merge(ais_ves, weather_fouling_cf, left_on=["type_bin", "size_bin"], right_on=["type_bin", "size_bin"], how="left")
     print("\nIntroducing correction factors for Main Engine Power Demand owing to Weather and Fouling: \n\n", ais_ves.iloc[:2], "\n")
 
